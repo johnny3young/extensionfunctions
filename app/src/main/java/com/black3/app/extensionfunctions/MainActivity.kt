@@ -18,5 +18,16 @@ class MainActivity : AppCompatActivity() {
         println(nulo.toString())
         var nombre = "El Cruzado"
         println(nombre.toString())
+
+
+        val numeros = intArrayOf(1,2,3,4,5,6,7,8,9)
+        numeros.swap(0,2)
+        for (numIterator in numeros)
+            println(numIterator)
+
+        println("El resultado con Infix fun es ${5 menos 4}")
+
+        obtenerTam(2)
+
     }
 }
