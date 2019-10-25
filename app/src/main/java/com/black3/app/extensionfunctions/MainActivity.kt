@@ -10,5 +10,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         println(13.isEven())
+
+        var persona = Persona("Johnny", "Ospino", 38)
+        println(persona.esTerceraEdad())
+
+        var nulo = null
+        println(nulo.toString())
+        var nombre = "El Cruzado"
+        println(nombre.toString())
     }
 }
